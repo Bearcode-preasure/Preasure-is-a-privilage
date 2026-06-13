@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Disclaimer — Pressure is a Privilege</title>
+  <meta name="title" content="Disclaimer — Pressure is a Privilege">
+  <meta name="description" content="Pernyataan mengenai sifat konten di situs Pressure is a Privilege — tulisan reflektif dan opini pribadi, bukan publikasi ilmiah atau nasihat profesional.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pengukirmakna.id/disclaimer">
+  
+  <meta name="geo.region" content="ID">
+  <meta name="geo.placename" content="Indonesia">
+  <meta name="language" content="Indonesian">
+  <meta http-equiv="content-language" content="id">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:url" content="https://pengukirmakna.id/disclaimer">
+  <meta property="og:title" content="Disclaimer — Pressure is a Privilege">
+  <meta property="og:description" content="Pernyataan mengenai sifat konten di situs ini — tulisan reflektif dan opini pribadi, bukan publikasi ilmiah atau nasihat profesional.">
+  <meta property="og:site_name" content="Pressure is a Privilege">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg: #f4f1ea; --bg-dark: #1a1814; --ink: #1a1814; --ink-soft: #4a443a;
+      --accent: #c8472a; --accent-soft: #e89478; --paper: #ebe5d8;
+      --line: rgba(26, 24, 20, 0.12);
+      --serif: 'Fraunces', Georgia, serif;
+      --serif-italic: 'Instrument Serif', Georgia, serif;
+      --mono: 'JetBrains Mono', monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+    body {
+      background: var(--bg); color: var(--ink); font-family: var(--serif);
+      font-weight: 400; line-height: 1.6; -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: ''; position: fixed; inset: 0; pointer-events: none;
+      z-index: 1000; opacity: 0.4;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.15'/%3E%3C/svg%3E");
+    }
+    nav {
+      position: fixed; top: 0; width: 100%; padding: 20px 40px;
+      display: flex; justify-content: space-between; align-items: center;
+      z-index: 100; background: rgba(244, 241, 234, 0.85);
+      backdrop-filter: blur(12px); border-bottom: 1px solid var(--line);
+    }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .logo-img { height: 32px; width: auto; }
+    .logo-text {
+      font-family: var(--serif-italic); font-style: italic; font-size: 22px;
+      letter-spacing: -0.5px; text-decoration: none; color: var(--ink);
+    }
+    .logo-text span { color: var(--accent); }
+    .nav-links {
+      display: flex; gap: 32px; list-style: none;
+      font-family: var(--mono); font-size: 11px;
+      text-transform: uppercase; letter-spacing: 1.5px;
+    }
+    .nav-links a { color: var(--ink); text-decoration: none; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--accent); }
+    
+    .disclaimer-hero {
+      max-width: 760px; margin: 0 auto;
+      padding: 160px 40px 40px;
+      animation: slideUp 0.8s ease;
+    }
+    .breadcrumb {
+      font-family: var(--mono); font-size: 10px;
+      letter-spacing: 2.5px; text-transform: uppercase;
+      color: var(--ink-soft); margin-bottom: 32px;
+    }
+    .breadcrumb a { color: var(--ink-soft); text-decoration: none; transition: color 0.2s; }
+    .breadcrumb a:hover { color: var(--accent); }
+    .breadcrumb .sep { margin: 0 12px; color: var(--accent); }
+    
+    h1.disclaimer-title {
+      font-family: var(--serif); font-weight: 300;
+      font-size: clamp(40px, 6vw, 72px); line-height: 1.05;
+      letter-spacing: -0.03em; margin-bottom: 24px;
+    }
+    h1.disclaimer-title em { font-family: var(--serif-italic); font-style: italic; color: var(--accent); font-weight: 400; }
+    
+    .disclaimer-subtitle {
+      font-family: var(--serif-italic); font-style: italic;
+      font-size: clamp(18px, 1.8vw, 22px); line-height: 1.5;
+      color: var(--ink-soft); max-width: 600px;
+    }
+    
+    @keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+    
+    .disclaimer-content {
+      max-width: 760px; margin: 0 auto;
+      padding: 40px 40px 80px;
+    }
+    
+    .disclaimer-card {
+      background: var(--paper);
+      border-left: 4px solid var(--accent);
+      padding: 36px 40px;
+      margin-bottom: 32px;
+      border-radius: 2px;
+    }
+    
+    .disclaimer-card .num {
+      font-family: var(--serif-italic); font-style: italic;
+      font-size: 14px; letter-spacing: 1px;
+      color: var(--accent); margin-bottom: 8px;
+    }
+    
+    .disclaimer-card h2 {
+      font-family: var(--serif); font-weight: 500;
+      font-size: 24px; line-height: 1.2;
+      margin-bottom: 14px;
+      letter-spacing: -0.01em;
+    }
+    
+    .disclaimer-card p {
+      font-size: 17px; line-height: 1.7;
+      color: var(--ink);
+    }
+    
+    .disclaimer-card p + p { margin-top: 14px; }
+    
+    .disclaimer-card strong { font-weight: 600; }
+    .disclaimer-card em { font-family: var(--serif-italic); font-style: italic; }
+    
+    .summary-box {
+      background: var(--bg-dark);
+      color: var(--bg);
+      padding: 40px;
+      border-radius: 2px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    
+    .summary-box .label {
+      font-family: var(--mono); font-size: 10px;
+      letter-spacing: 2.5px; text-transform: uppercase;
+      color: var(--accent-soft); margin-bottom: 20px;
+    }
+    
+    .summary-box p {
+      font-family: var(--serif-italic); font-style: italic;
+      font-size: 20px; line-height: 1.6;
+      color: rgba(244, 241, 234, 0.9);
+    }
+    
+    .last-updated {
+      text-align: center;
+      margin-top: 40px;
+      font-family: var(--mono); font-size: 11px;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    
+    footer {
+      padding: 64px 40px 48px;
+      background: var(--bg-dark);
+      text-align: center;
+      border-top: 1px solid rgba(244, 241, 234, 0.08);
+    }
+    .footer-logo {
+      font-family: var(--serif-italic); font-style: italic;
+      font-size: 26px; letter-spacing: -0.5px;
+      color: var(--bg); text-decoration: none;
+      display: inline-block; margin-bottom: 14px;
+    }
+    .footer-logo span:first-child, .footer-logo em { color: var(--accent-soft); }
+    .footer-tagline {
+      font-family: var(--serif-italic); font-style: italic;
+      font-size: 17px; line-height: 1.5;
+      color: rgba(244, 241, 234, 0.7);
+      margin-bottom: 20px;
+    }
+    .footer-links {
+      display: flex; justify-content: center; gap: 24px;
+      margin-bottom: 24px; flex-wrap: wrap;
+    }
+    .footer-links a {
+      font-family: var(--mono); font-size: 10px;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      color: rgba(244, 241, 234, 0.5);
+      text-decoration: none; transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--accent-soft); }
+    .footer-copy {
+      font-family: var(--mono); font-size: 10px;
+      letter-spacing: 2px; text-transform: uppercase;
+      color: rgba(244, 241, 234, 0.35);
+    }
+    
+    @media (max-width: 768px) {
+      nav { padding: 16px 20px; }
+      .nav-links { gap: 14px; }
+      .nav-links a { font-size: 10px; letter-spacing: 1px; }
+      .logo-text { font-size: 16px; }
+      .logo-img { height: 26px; }
+      .disclaimer-hero { padding: 120px 20px 30px; }
+      .disclaimer-content { padding: 30px 20px 60px; }
+      .disclaimer-card { padding: 28px 24px; }
+      .summary-box { padding: 32px 24px; }
+    }
+  
+    /* ===== TABLET / iPad (769px - 1024px) ===== */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      nav { padding: 18px 28px; }
+      .nav-links { gap: 24px; }
+      article, section.about-content, .disclaimer-content { padding-left: 32px; padding-right: 32px; }
+      .archive-grid { gap: 48px 32px; }
+      .post-grid { gap: 28px; }
+      .athletes-grid { gap: 40px 24px; }
+    }
+
+    /* ===== HP SANGAT KECIL (<=380px) ===== */
+    @media (max-width: 380px) {
+      nav { padding: 14px 16px; }
+      .logo-text { display: none; }
+      .logo-img { height: 30px; }
+      .nav-links { gap: 12px; }
+      .nav-links a { font-size: 9px; letter-spacing: 0.5px; }
+      h1.hero-title, h1.article-title, h1.archive-title, h1.about-title, h1.disclaimer-title { font-size: clamp(34px, 11vw, 48px); }
+    }
+
+    /* ===== Touch targets minimal 44px untuk jari ===== */
+    @media (hover: none) and (pointer: coarse) {
+      .nav-links a { padding: 8px 4px; display: inline-block; }
+      .filter-btn { min-height: 44px; }
+      .cta-button, .home-link { min-height: 48px; display: inline-flex; align-items: center; }
+      .post-card, .related-card, .archive-item { -webkit-tap-highlight-color: rgba(200,71,42,0.1); }
+    }
+
+    /* ===== Cegah teks kepotong & gambar overflow di semua device ===== */
+    img { max-width: 100%; height: auto; }
+    .pull-quote { word-wrap: break-word; overflow-wrap: break-word; }
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAZiUlEQVR4nO1cd3xUVfY/59733vT0BgGihBqCIEVYURNQXAsqgpNlRUVdxUVREVDXOhlRV3BXV8VlwUIR+ekM2OsiJmEtwCIoJaJ0CIb06fPmvXff+f2RRBEVCcWy5vvPfD7Jy51zvu+0e+65AWhHO9rRjna0ox3taEc72gJkP7cEv06Qz8cBACJlL1wVW7E4j4iQiPDnluvnQtvNKHMzAgDwSN0oM9p4JSISlJfyYy7ZrwRtJ7C85dPQhcLZ1JqaTU4oB/O3aoVSm/+iTyUBABBTmOyUk+wfl92DXu/tVAwSABjHWsBfOtpugZsLEAAAwVAhEiUrJKaF355fjMO9BpV52v5CfuVoO4HFLZ+c1QMwhEQClXjD85HVb+TgcK9BRL+p9HzkypK8DYDAMAxdAa2jtG/L0i+JLIBI5PH8Zkhsu6J1fQgAwLTYVwk1AWgaSjwSMyykDsvzz/T7iRh4vUT02yCxzZmTABCa04gU8z242W5q3dREglCYpsVhkTRTemXrSWP/UFhYqJHPx7GkRBx7sb8Nj8fDSisrsby2FgEqoLgCTAQwvyO3GxjUFiHckEXg9pmISMdbtu8FeTwSAWB06d9uJn8pqU9N0xNPTaX4nBt1WnQrqQvvXBFc/lJ667PHSQZWVgQSfK8RIACXm3dLyAAkBQC/W6qSG/jRhpsjqt2ICBGRaP3LKYkNaytlI5qtaQLQNBmZZFhtsqSD/KWenX+544JJa8gDDMAD6PWaP776Ib4XAMHtZuj3f2PVXIY9sybn0tbKgUYsOojikV5k6CcyznPMhMqBTGI2KyFiLZct29Dh2Gjt1HW9cta5H6WcWtIIAOBzA3f7wMQW32oL2kRgK3Gxiv/rLDRttGvkhCcivpmXO9TGRYlASCcyZSQTTNMUNplzXbFpujNtmmN86WwAarbG0lJxBK6DdCBxkgK7bxkzCOpqLjcigfPNRCJfQgDNpACzKLWMaK8wjXqJoWFarMnM0NLQFCfY0OyYqSBoQNBoytU8Jf0d6NLjqZw7n/q4RT7W1pfcNgIBEAGIPvLZ4lU79wom3eS6ZNqSyII7FzuM8Ph4IKwjkYxAYAKaDBmzJDlBRctrifTOU1PG3LwdAIB8bo4l/sOKjQcqtYlIkS8//UqeiE8FTe+JnO9Bh205cNvrlJe/vmvp3L3IFQJTP2gVBkQCm/42vYtWvWMkBfZfYY8HTpfJgKBkNzEjZ0H0/OlT80eODLaVxLYnEQJEBIotue9jyaYMTqBrpGv0DWWxube8ZxORM+NNYR0YkxljQMiJEE2bTeE6SEHDmT4rfO7kx7OzsyMAP05kWRFIwyvAACLcPfGcm/S6mlsZRwVcqUt5557P5M189hPQEt+Wr1knVl7UrFtxFhD4gb6VVCQF9nsvvxS2b5jJIk2d7FYF1OSsTcHTR5+fXzJlj8fjYd7DJLHtBJZ5JBzuNWLLHv6nDRKT9IQR163Jlznct76UeOLPryl6+AI1GBHEZWScM0IEAiYkRly2W0EDZavuSL3fMWHG84goCADB52YHE0luN0e/X2ydetmp1rq988yEKhuKbZZ4rmxxD8SvWSsrAqk4y01QUEDg9RLC98cxAkDweLC8vJwVV1SYCGDuf/6RruzjV/6DDfszrbIkR9Nzv5AmzTgl/fmhESglOpxQ0+YMVF7eIhCzrgBdAEVDFnu0blls8b13WW6Yc2EMrPdbk5zcxoiRIQwQJqEpuK4LigWjQo4EujsCVQv12df/Nzz/7nHIJcISvyAPsAMzIvr9YsuEEbfx/bsWkmybm/fiql75i8uf6YGYKCsCiXxuTp4iqbgCCMAP5eXl7FDWgACEXq85vKLCQABzk9ut5IyfukPre7qbO1N4WKCWHmvsqT391/vQCyaUlBwWN0fgws2JJLB7Q6qlwrdNTkRTdE0jq03hGlNWRAvPulreua67pXr7k7Kp9jSiKugmGoTAGQASkEmCyC4jB0kCTbKtNtI7zHJMeOAlAIK1AwfK2hldpXTB78doMNPe//RbOt14ZwPA11ZpkseD38SpVhWajcXndnN3QQEdThwjT5GE3gpj35SzfanROnfUIAOsDpEYXNy909UP7D2ceNhmC8TmrZqUkndSk2GxP80tMiNDUDwQEkqk/kzHqmVbeCjQf9+IPxUnbBlTSLHW2excsoKBwtAEGTqgqfOYmjBj4ZBQInVD7Hs2LYv/9Q9vhXwPnTbok0/07F5Dz+PJ6R/0eObtKzrdeGdDWVGRBACIfr9oJe8jIlv9X8ZM/uqqIW/svXTAq7umj70WZQVK/H7RliRAAMjTO7zKLVYgZEaKbFqUXVsuaf5t+Y/yc8R1IABCaM3yNOWzdzZLsUCWbggCIYiZOrfYFNAMtk04UkpF4bBP5c0V52FT/SQFjBNB1yGq6gQAJgIx0xSEwgSHwlgCZTKTs2Y3XXr/fbm5ufWb3AVKH1+l3lqf+dxuXuL3i92P3ZXv/GLli2nh2oH7TBsZ8YSeBrpSk3nCC6xz3qOWWFzL7T/wCyyZFj+kHi0WVv3Qn06x7q5cbei6nmSXpbA97bWMh94cTW7g6IdDVgtHVIUjIoHfzZKHjGwQ6bl/kqw2ZIZOYBhoGkSxQERIkUA3W2DvYrnC95pQdcPod8alaseeExOS9X2bxNAhA+eGjqQbZJomRmKa0IIBsNVuvzFtzsT/1Mz3Div0V2pQWsQBmjN2id8v9i6b1yl1W0VFmggMjFvsQWXkmIlaSoc3YvG4Ydm3bVzqxlWrqWpHxa5Nm/+ylkj2HMZOwzSEQYhAMmMGk5BM0RmQAfrhRy35iLcxWOIX5PNx59ipb0asqTda7FYumRojoQkQgscTCTPSFBRSuLGrvXHXI1TxynvGri9PNTv3mav2HHpJ3Jo+DyS50WVh3GbqaGoJIDIhFFENqaG6V/LGFe/XPz75SvRWGDRxoIwlflH3wQeu5LUvr7RwSG/M6OYNXXB9z8YvttdbA1+dHyPkpmKLRtI73Qan/b5PtPCcBwYCGIcsR/pUIgCAIrNODqsMTFJMYAwAuQ0YA/iBjH4gjmqfiiUlosxTJLmunDE7/MzdtZZ4YoFdC9kisRihSSYIweJkmhRXTQ7gcJjqlbCx/soY8E8ho8NSo/ugK8z63Scxfd+fktDMV2MqJEzAKJGQmhrkFPHJ/PqHr+F469PPNM6+Kw8r5vxLli0b9xeecVbe+Dt27J03pJO8dd0iMxK2oMMZY70Hn9flgUUrAd49PAU21yIAAEUDJ8sSA0bMZBIDZrHEgQigOcQdksRjco5R/fDDDmnUKGbIjbZ0/5OP8WjTOKbHwYirEDcEAaCg5i8ziYjZOZMkhUNEsDC40pdS/oA3WcOefL5nyzSrEc8KxnUByFACg6yp6TzcY9gIcqU2sHCNJeW6v/8XmrXCrVecNt9ZXzUBZQ7RnK4Pdpu7/K4vz+lm6f72Vu1warjmzhJB3V0XbnCp4cIYSlqK3aoElKRl6fcsuaS1Fj3UGkfdKSEPsM15Eb3DgjueT9JiHz7wyLuX3/Hh4lJc+ca1wqgZbQU1X0aQgEwAIUA3AWKqDmYcNABwpujqVbGG6ispvcOS0NCLJuD65WOSofHaSDwBgkmGiASBbVs7P2nWv/MRUaydOFAe2GGU2NPZnsPefG5M3NCJ2Ryaa9Dw+ZSznAGM1w+LvJZdUP2cW89yglEYA26iJDFmsQA6U/8DAAAFtT9qYEff9Kx0Y2GJVyOrfa49VPfo5HH9toUXPDchGOmwBK6aMUI++4+DtC49JsRd6Y/G7UnLNc63IueJJIUpKTKgribAiEXQVrNjvLPC93w048S1gbz+10oWxZCRpDhJepKI5wW846YSAKYnnBy9XhIbV13gJM3FJUQdaGvWNXdsBy8cVv0HAC3ui0A1O0tlIGCKxeSc8zBJCejY/eXmh4p/dK1j4sLkdnNc+pLY/+fiRdnV2y+PagyIZIgIVmdyZYNAaaOUkl7F0zNqucsS4Q4ZFYuZYQZrT6BgU38zFhuq6GoqFwYoVgvU2XMetvQbsNL6WflSwzC4rFh53Jq0I+mvb/b2I5olwMTWy0553dZUPYpxhJg99ZVuL3x6MQFxhEOXHQAANHGgjPM+0ffPvPrPmZHqOSGdBHALpTgsUkBJXpw6/anLD8d9AY6BCwMAgM9nEiKDGx6b0vi3iYOl6r29QqquKcQyHRg/U+HsTKwJgL5/O8RNhChRKMKUKnAkbWVpaetsnXu+qUJTsllfPVrsrx2cadt769bVoHQ4pXiKa9uaOZG4bsoS6xp5fkavEoCNVQsfS4+9/M9TVTIpVbZg3JW8CYAAiooQKioOKerauRNlvG6eXrNoxqmuHWsfjemmAG5FRUaIcYuKXfp5CQChoOCwWm7H5NwCEQk8HsDCwkb1dyN/r6dkbU6XmaKbYIQJtQadjLqEMAK6KVRDEBciyWbEC5JDtRcl7dlyV+w/ZU8k1m8fpTl6vNmQ2/feL5tEY3rV7pu3rd0eijqzFztdDmaz2pCCwe4EgPrGlRcko5GGgDrIClhyOqwBAIAbsg6pNE2cKA+6bp5eveSRPvbdG1+nuGo1mIKMM2F3uXjMlTk9pWTyNvC5D7uldcwOftDrNcnjYbnXefcEr3loWCwrb7HTbpNcSAoIQzIB0ITmVKIj6lFALUCQaBKo6mQKigR/Z/30g9K06uqheMZFDwYNqZp/ufGhSI8hixIWlw6STIwxFQFI1O67FIUOkiTJMZBCvP/pqwEAwO3/XqV9bjcnN3CcN0+ve+6vxclbP/i3FA2mJbgimCSJpJQkuZE5Z2de/8iTZZ4i6XB7lQDHKAYeiK834Mhh/7RLz8I9O6dQKDTCqiVsrCU8ETUXV829JwREAIMIoroJDiCIJqVtDvc9ZYFldfnD0R59L+vV03mrlfN+8d+d12X7/BfAtX/DVtDiUrJN5rHkzPdzn/n4TAJiB/b8Wttk4PcD+kEAShB4+MqJUtP+x5mhWeJM1iWJ86S0VBZRUp52TZ59LV0yhoPfb/5QS+wnIbCFIGzhxQTGodE3N0994+U+IhbpAUJP15lsZ6bQhBoLkapFMTklAw3RmeKxoWhovZINFRq691sUqPmqqx5LrBw8fvgAEVJPtk2dl7PePWxhZ3XfFVGGamaSzRrJ7TYt86FXHoWJAyXoMEqUQzmDcoDhFRVGq4oNL9w/TN628V5btOnsSEIzTcliJDsdimF1gObKuD1p0qOzyEMMSoHaei5yXAeCfG43d/v93+4GHwJEJG2/9hI337VtrmpogVinLs8nQlF14OhTr+AozXhjXWJNn53LN1pEkJhVZoorSaPCYX2yb3ti+/esZQnOmVZM1TuvhnjEbTF1jBHT7TabbHO5QFWcayMd8m/PvPSO91vkbJPlteInmagij4dBZSVC7Q8XpuVQAeUVYHoBzM9vGH+hqPx0qXFCwc1pfTp3z0iz9LZf98i5K0f2/yRPqxmANqalOGQl4kov7/j06uFfmobF/vIiJ9v0XpYsxMlmpPEUZupnK7raWyEBCUCwO12AFitoVucGSMt9cs11s54djmi05Xzm+3BcCSQALPUAloIH/JWV6G4tDUq9hNj6yLefBzcwfImLjecOWQGDT703t1fOxakl0x5898IRMzuH9l3jtOiCFAa5GU4ezOvtjjapaWnBvbcGTOFipshIs0rcKjMQBECKArpsAd3iaOKu5BUiJfO5dZP+8dZwRAMAwOdz85KjIA/geCQRIiwvLuZ1FRVU8iNFrQ+AZxYVYXFWFrXWXf7KSiwoyLTpXzWN7z9vybMAkFQ+duR9lrp91yeBajgdjCsWBDkzI8Su9QyL/uP2VZ1ZwhkDGQxFApXLGlOUGuZw7eRWx2qWmvohnnTBKtdZF9V8LaPPzaHkyFz2YBwzAokIoQTZNw1IBkRC2VI6OUPsr00hp+KQVE1lLmfU2ndw04lXTWkyNR1+SAciwtVTJw1RN30yQ44EzzJMnbokcQQujKwUqxTK6jxPGT7ufqPC94eYMBtdNnuAuZLqeUaXavX0cdXZfftFgL55f+QGDm43HCviWnFMCGztFAMA7H7C0zG8bs3FerBppFBjBWAkshmZLisHFMIEjSRhct5A3LrfAPxccPtnwpXyhQl8ty3ZFdM0w4WhYE8tUH8RxWNj0rQ41tmcTR1dCkuJ1yWbCpr2tCTEgaedkjn1ybU/JFPzKVwRhz7Hdw7mqAls3TN+vmRJx8jrT90qAoHxVoRMWZJBslogAQBCGLqiMCFU1RTRqM0uBKIhQAgE1USIEgfVJDAAgBNCEgewCAGNRGDYXcvyhp/1rv2/7z5qqGFLklOSomnZZV0WrhpBY8dwKKjFcgCAcoCvQ0FzjP1JBoeOai/cSt666ddcFFk8a7Y9FupkIocmkhJoZZuFMNaRpGxWnDlV1LFTnaNf36C8Y3M8vHNbXy0QHGCo2gAtrnbVNS2bgJIURBBEWpCkrTwl/b3kbifus14z7U2Ycf00qxp3hBE0kmSAzOyZYDa7J3orvjtW7D0ardqGI7bA1h3Hhhsuvtixe8tLDqFBwJa8jZJSF9o6dHvpxL89W0n6wSMWB4ExoBUrrKtenpscq9esSvfulD2kKG6N1CfHX3/xssZIvHfmkGEL5PJXXtMTUXBZQIqnZ6zPW7x6UCkieA+zvjyeOLJTOY+HgddLVXPu6ya/v3QDMwVLdDjR0+mmu/+JPYaGWp9rzbIAAFAMkAlZrE+lXxx80kVEvP6eSd0Cu3YP0UOBCxPB0FhhtQWaisZ0y1vz+pNJofo/hEloKS6LEut98ui8mUtePdx20/HGkRHoBo5+FPuuK/KlaNFRwZNGnNPxlpkrAQDKioqk4uJi88BuxreLVQ7RZY90Ep+vHmg0NAw1ItGT1cZwLzOs5SUbAhLEoMaV/pblltsnSG++2tO6afUH0XhMT7agHEnJ+Kjbsk+G0d0GQ+/Pb30ARzihigC0x/d3m+UdX5U4oeC6jvfOX3rwGS5AS2mDCAhA29cuT85Z+eIfsaHmEhFsHCQnYsmWuAYU1SAWI6g1OBiy9T2Rm/9474WvvQ6GgC0XDvjUEQ2epJrCsNltMvUb/LvODy5cdWDW/7nR9iTScjoEH5fnotP1Ycd75y8tKyqSCv0V2oGvgzwehogmcBmij0+8GV99bIotGjgB4hGAhA7hmIAmTarShXOD1CF7E+910ntd7/z7cjA/AwCA7ZPH/CVp2+Z+ATITKbJkaXRlzO/54KJVvxTXbUXbCWwhKaWwMKiF1LXkGcYAwDywE9yaYILLX0qX17/yvK162+8h1AggCMIkb6W0nHe1TjmbmKa5JKvVEcnpus5x3V0f0tuzJKgAqnp2Zld8+0VPROiGgiRHnCl1rjGTb6cXVrLSw+wU/1Q4qjqwuuzlE3KKR+9BxG/iXYvbNrz1lsu64cUVjtj+QaAmQGXyGtah6+M1uqPeuuPT87meOMdQbOsS9tQ5qhpe1f2Jd3TwFDEoLRd7rz6jwt5QfXokYSYcNocl3HPg6K4zF/xiEseBOKo6sMPwi3d954elpQhEJD8xeZGDQoNUHaNyl4Kb9hmZa3DV2zd1ULRrVcbDRmbna7JnveJr/TOaOFFG7zx9T3SsJy1Wf3q9aarpdsVan5Yzs+vMBa+WFRVJ6Pf/b10lO/iCIfnczVdhF804hx67gtT7xu5S173efdstf7xq39jCMF1dSMEpZ729b9+WDIBvpuTJUyQBAFQ9MuWCpgkD6KvR3eLhsT1o71XF7xIRkhs4/UStt7bi6Eb8D95f+gEAEFj97umGZgYS9ywdWP3w390d9214NsdFzlDHrnOTZ688Nze3Vz15iiT0g4A+lYjeCqPquZk9bVvXLDTUiO6UmTWWmr3RvHrGOECE0gLPD06e/s+g1RqrP33XEX34Si2+7KGROyaMuilxSQGpl/emxrsufAqAAcE3k6itFrvtww+zGqf+fkfT+F4ifGlvaph4xpY9vgW5AC1F+28BrYqGZ0/pE316+os7b76mf91FfSg2rjs13n7+e8DlZpdtIbqVvJ3r16c03X7ef8NX9yX16r4UuGnEhqqXn+0M0LzX/vk0+onRSkx0wZ250U9eGbRrVP/3ExedYDZNOvWrmrI3cggAv7a8lpi3/71Xs0N3XvCRfv1A0q4fTME7L/x3VVVl8w0n32+IvFa0WsyO6y89o3FUT0pc0ZcaZ0wYD9BM2oEJo/r1fxaG7xn9OU0ZSuGbThPBUvcMkOTmdX5Fbnts77G1HBpZAlWjUq0mNbhSPku/e4FvkxFToA8ILPGaAGAG5k4bZ1n7zgKriFoitozPRKdut6Xc8I9/t46bHVhX/tJxbAnMqmjOlFr0BHBYkTlTnkXEr3ta9c95Cuz7dz1oC1VdpJnmvkha3iNN056Z0wUx3joxD/iLrFZ+EMfhJiUCt3BmckaQXxAM+kcMkeL1AzAaPoc3Vp/GEHfGbNmT9o+5+f/y8/ODMP3Z5sas99dZJB/bWFNbhAAEPDV5NbNwZJLFBsLIgoQqGMP5okPByfL0BYMcNzz+r/z8/CD53Jxari8cUzl+rSAiJAAM+R7LjN1SXB2+7ezvzJoRAJZ5iqT/lX+TctyGi/bM/ku3jMD2x8ykzJ2B7gOeyF21dzv0qaSjmQL4zYDomxcTeuaOzMA7T6X9nPL8KkEeDyM3/PaK4WMNAsBfaielHe1oRzva0Y52tKMd7WjHz4T/B4RQ7rwMWc4JAAAAAElFTkSuQmCC" alt="Logo Pressure is a Privilege" class="logo-img"><span class="logo-text"><span>P</span>ressure <em>is a</em> Privilege</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Jurnal</a></li>
+      <li><a href="esai.html">Esai</a></li>
+      <li><a href="about.html">Tentang</a></li>
+    </ul>
+  </nav>
+
+  <header class="disclaimer-hero">
+    <div class="breadcrumb">
+      <a href="index.html">Jurnal</a>
+      <span class="sep">/</span>
+      <span>Disclaimer</span>
+    </div>
+    <h1 class="disclaimer-title">Tentang <em>tulisan</em> di sini.</h1>
+    <p class="disclaimer-subtitle">
+      Sebuah catatan kecil tentang sifat konten di situs ini — supaya kita saling memahami sejak awal.
+    </p>
+  </header>
+
+  <section class="disclaimer-content">
+    
+    <div class="disclaimer-card">
+      <div class="num">01</div>
+      <h2>Sifat tulisan</h2>
+      <p>
+        Tulisan dalam situs ini bersifat <strong>reflektif dan opini pribadi</strong> — bukan publikasi ilmiah, jurnal akademik, atau hasil penelitian formal. Kata "jurnal" di sini digunakan dalam arti umum, yaitu kumpulan catatan dan refleksi, bukan dalam arti jurnal ilmiah ber-ISSN yang melalui proses peer-review.
+      </p>
+    </div>
+
+    <div class="disclaimer-card">
+      <div class="num">02</div>
+      <h2>Kutipan dan referensi</h2>
+      <p>
+        Kutipan tokoh, nama-nama publik, serta referensi penelitian yang disebutkan dalam tulisan digunakan semata-mata sebagai <em>konteks dan ilustrasi gagasan</em>. Pembaca disarankan untuk merujuk langsung pada sumber aslinya jika membutuhkan informasi yang lebih lengkap, akurat, dan mendalam.
+      </p>
+      <p>
+        Kami berupaya menyajikan referensi seakurat mungkin, namun tidak menjamin kelengkapan atau ketepatan interpretasi atas sumber-sumber tersebut.
+      </p>
+    </div>
+
+    <div class="disclaimer-card">
+      <div class="num">03</div>
+      <h2>Bukan nasihat profesional</h2>
+      <p>
+        Konten di situs ini menyentuh tema seperti tekanan, ketahanan mental, dan pertumbuhan diri. Namun, tulisan-tulisan ini <strong>tidak dimaksudkan sebagai pengganti nasihat profesional</strong> — baik medis, psikologis, hukum, maupun finansial.
+      </p>
+      <p>
+        Jika kamu sedang menghadapi kesulitan yang berkaitan dengan kesehatan mental atau hal serius lainnya, kami mendorongmu untuk berkonsultasi dengan tenaga profesional yang berkualifikasi dan berlisensi.
+      </p>
+    </div>
+
+    <div class="disclaimer-card">
+      <div class="num">04</div>
+      <h2>Tanggung jawab pembaca</h2>
+      <p>
+        Setiap keputusan atau tindakan yang diambil berdasarkan tulisan di situs ini sepenuhnya menjadi <em>tanggung jawab masing-masing pembaca</em>. Kami tidak bertanggung jawab atas hasil atau konsekuensi dari penerapan gagasan-gagasan yang dibahas.
+      </p>
+    </div>
+
+    <div class="summary-box">
+      <div class="label">— Singkatnya</div>
+      <p>
+        Ini adalah ruang untuk merenung bersama, bukan sumber otoritatif. Bacalah dengan pikiran terbuka, ambil yang bermanfaat, dan tinggalkan yang tidak sesuai untukmu.
+      </p>
+    </div>
+
+    <div class="last-updated">
+      Terakhir diperbarui · Mei 2026
+    </div>
+  </section>
+
+  <footer>
+    <a href="index.html" class="footer-logo"><span>P</span>ressure <em>is a</em> Privilege</a>
+    <p class="footer-tagline">Jurnal untuk mereka yang memilih hadir.</p>
+    <div class="footer-links">
+      <a href="index.html">Jurnal</a>
+      <a href="esai.html">Esai</a>
+      <a href="about.html">Tentang</a>
+      <a href="disclaimer.html">Disclaimer</a>
+    </div>
+    <p class="footer-copy">© 2026 Pressure is a Privilege</p>
+  </footer>
+
+</body>
+</html>

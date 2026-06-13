@@ -1,0 +1,41 @@
+# Pressure is a Privilege — Paket Website Lengkap
+
+Halo! Ini adalah paket lengkap website jurnal "Pressure is a Privilege".
+
+## CARA CEK (Paling Mudah)
+Cukup buka file HTML mana saja dengan dobel-klik — akan langsung
+terbuka di browser. Mulai dari "index.html" (halaman utama).
+
+## DAFTAR HALAMAN
+1. index.html ............... Beranda / Manifesto (halaman utama)
+2. esai.html ................ Daftar semua tulisan (dengan filter)
+3. about.html .............. Tentang jurnal
+4. pola-pikir-atlet.html .... Esai #1 (dengan foto 6 atlet)
+5. kenyamanan-pilihan-termahal.html ... Esai #2
+6. privilege-dari-diandalkan.html ..... Esai #3
+7. 404.html ................. Halaman error (muncul jika URL salah)
+
+## CARA CEK KONSISTENSI
+Buka tiap halaman, lalu periksa:
+[ ] Logo phoenix muncul di navbar (kiri atas) di SEMUA halaman
+[ ] Favicon phoenix muncul di tab browser
+[ ] Menu navigasi sama: Jurnal · Esai · Tentang
+[ ] Warna konsisten: krem, terakota, gelap
+[ ] Footer sama di semua halaman
+[ ] Link antar halaman berfungsi (klik menu & kartu artikel)
+[ ] Tampilan rapi di HP (perkecil jendela browser untuk tes)
+
+## FILE TEKNIS (untuk deploy nanti)
+- sitemap.xml ...... Peta untuk Google
+- robots.txt ....... Instruksi crawler
+- .htaccess ........ Konfigurasi server (URL bersih, HTTPS)
+- assets/ .......... Logo & favicon dalam berbagai ukuran
+- PANDUAN-SEO-DEPLOYMENT.md ... Panduan lengkap cara online-kan website
+
+## CATATAN
+- Foto atlet & logo sudah tertanam (embed) di dalam file HTML,
+  jadi website tetap jalan walau dibuka offline.
+- Folder "assets/" berisi logo & favicon terpisah, berguna saat
+  deploy ke hosting nanti.
+
+Selamat mengecek!

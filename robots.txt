@@ -1,0 +1,25 @@
+# robots.txt untuk Pressure is a Privilege
+# https://pengukirmakna.id
+
+# Izinkan semua search engine crawler mengakses seluruh website
+User-agent: *
+Allow: /
+
+# Blokir crawler AI scraper yang tidak diinginkan (opsional, hapus jika ingin diindeks AI)
+# User-agent: GPTBot
+# Disallow: /
+
+# Khusus Googlebot — izinkan penuh
+User-agent: Googlebot
+Allow: /
+
+# Khusus Googlebot Image — izinkan akses gambar
+User-agent: Googlebot-Image
+Allow: /
+
+# Khusus Bingbot
+User-agent: Bingbot
+Allow: /
+
+# Lokasi sitemap
+Sitemap: https://pengukirmakna.id/sitemap.xml
